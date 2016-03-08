@@ -1,0 +1,65 @@
+# Project related
+
+# SML
+.cm/
+
+# Java related
+*.class
+
+# Leiningen
+classes/
+lib/
+native/
+checkouts/
+target/
+.lein-deps-sum
+.lein-failures
+.lein-repl-history
+.lein-cljsbuild-repl
+.lein-plugins/
+repl-port
+.nrepl-port
+.repl
+
+# Datomic
+*.db
+
+# Python
+*.pyc
+*.pyo
+/__pycache__/
+
+# Ruby
+#Gemfile.lock
+.sass-cache/
+
+# Temp Files
+*.orig
+*~
+.*.swp
+.*.swo
+*.tmp
+*.bak
+
+# Editors (IntelliJ / Eclipse)
+*/.idea
+.idea
+*/.classpath
+.classpath
+*/.project
+.project
+*/.settings
+.settings
+
+# OS X
+.DS_Store
+
+# Logging
+*.log
+/logs/
+
+# Docs
+autodoc/
+
+# Builds
+out/
